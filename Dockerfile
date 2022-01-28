@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER John Goerzen <jgoerzen@complete.org>
+MAINTAINER Jimmy Mac <jim.mcbride@gmail.com>
 # VNC doesn't start without xfonts-base
 RUN apt-get update && \
     apt-get -y -u dist-upgrade && \
