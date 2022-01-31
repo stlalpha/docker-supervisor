@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:latest
 MAINTAINER Jimmy Mac <jim.mcbride@gmail.com>
 # VNC doesn't start without xfonts-base
 RUN apt-get update && \
